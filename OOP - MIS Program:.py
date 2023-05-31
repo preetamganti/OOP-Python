@@ -55,3 +55,8 @@ print(course2.get_course_details())
 course3 = INSS615()
 course3.set_professor("Dr. Chike")
 print(course3.get_course_details())
+
+#This code sample defines the class Course with two attributes which are course_code and course_name. 
+#Classes INSS500, INSS573, and INSS615 inherit from Course class and add an addition attribute which is Professor. 
+#In my example, three instances of the classes are created and the set_professor() method is used to set the professor for each class. 
+#Lastly, I use the get_course_details() method in order to display the course details, which include the professors for each class.
