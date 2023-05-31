@@ -37,3 +37,10 @@ game = NumberGuessingGame()
 
 # Start the game
 game.play_game()
+
+
+#Simple Numbers guessing game coded in Python - user needs to guess between 1 and 100 
+#play_game() method is the main loop used for the player to make their guesses, and receive feedback on if its too high or low 
+#get_player_guess() method prompts the player/user for their guess and validates it 
+#if the player gets it right, they will receive a messages saying "Congratulations! You guessed the number in __ attempts."
+
