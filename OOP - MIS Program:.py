@@ -9,7 +9,7 @@ class Course:
 
 class INSS500(Course):
     def __init__(self):
-        super().__init__("INSS 500", "Introduction to Management Information Systems")
+        super().__init__("INSS 500", "Introduction to Information Systems")
         self.professor = None
 
     def set_professor(self, professor):
@@ -21,7 +21,7 @@ class INSS500(Course):
 
 class INSS573(Course):
     def __init__(self):
-        super().__init__("INSS 573", "Database Management Systems")
+        super().__init__("INSS 573", "Digital Innovation and Entrepreneurship")
         self.professor = None
 
     def set_professor(self, professor):
@@ -33,7 +33,7 @@ class INSS573(Course):
 
 class INSS615(Course):
     def __init__(self):
-        super().__init__("INSS 615", "Information Systems Analysis and Design")
+        super().__init__("INSS 615", "Principles and Practices of IS Development")
         self.professor = None
 
     def set_professor(self, professor):
@@ -57,6 +57,16 @@ course3.set_professor("Dr. Chike")
 print(course3.get_course_details())
 
 #This code sample defines the class Course with two attributes which are course_code and course_name. 
-#Classes INSS500, INSS573, and INSS615 inherit from Course class and add another attribute which is Professor. 
-#In my example, three instances of the classes are created and the set_professor() method is used to set the professor for each class. 
-#Lastly, I use the get_course_details() method in order to display the course details, which include the professors for each class.
+#Classes INSS500, INSS573, and INSS615 are the three class names under Course class and add another attribute which is Professor. 
+#In my example, three  classes are created and I used the set_professor() method to set the professor for each of the three classes. 
+#Lastly, I use the get_course_details() method in order to display the course details, which include the professors for each class and it looks like this: 
+
+#Course Code: INSS 500
+#Course Name: Introduction to Information Systems
+#Professor: Dr. Calloway
+#Course Code: INSS 573
+#Course Name: Digital Innovation and Entrepreneurship
+#Professor: Dr. Mangle
+#Course Code: INSS 615
+#Course Name: Principles and Practices of IS Development
+#Professor: Dr. Chike
