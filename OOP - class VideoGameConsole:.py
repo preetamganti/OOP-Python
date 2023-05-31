@@ -37,3 +37,17 @@ print(console2.get_console_details())
 console3 = XboxSeriesS()
 console3.set_game("GTA V")
 print(console3.get_console_details())
+
+
+#My base class for this code is 'VideoGameConsole' with an attribute called 'console_name' and an additional game attribute called 'game'. 
+#The classes 'PS5', 'NintendoSwitch', and 'XboxSeriesS' add specific console names.
+#Each of the three consoles has a 'set_game()' method to set the game that is associated with each console, and 'get_console_details()' method is used to display the console details and the game.
+#I created three classes and usedthe set_game() method to set the each game to its console.
+#Last, I called on get_console_details() method to display the console details, and the associated game as well to look like this:
+
+#Console Name: PS5
+#Game: Hogwarts Legacy
+#Console Name: Nintendo Switch
+#Game: Pokemon Sword and Shield
+#Console Name: Xbox Series S
+#Game: GTA V
